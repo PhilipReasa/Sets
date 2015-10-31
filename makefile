@@ -16,3 +16,4 @@ test.o: test.cpp
 
 clean:
 	rm test.o
+	rm evaluate.o
