@@ -14,7 +14,7 @@ public:
 
 	//O(1)
 	~Set_Map() {
-		delete map;
+		delete[] map;
 	}
 
 	//O(1)

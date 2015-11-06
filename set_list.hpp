@@ -14,7 +14,7 @@ public:
 
 	//O(1)
 	~Set_List() {
-		delete list;
+		delete[] list;
 	}
 
 	//O(count)

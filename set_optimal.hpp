@@ -16,8 +16,8 @@ public:
 
 	//O(1)
 	~Set_Opt() {
-		delete map;
-		delete list;
+		delete[] map;
+		delete[] list;
 	}
 
 	//O(1)
